@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color:lavenderblush;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+#pkkaNhiButton, #hanSochLiButton {
+    position: relative;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+}
+
+#happiness img {
+    width: 300px;
+    height: auto;
+}
+
+.bubu {
+    width: 260px;
+    height: 350px;
+    display: flex;
+    z-index: 1;
+    margin-left: 415px;
+}
