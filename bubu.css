@@ -29,30 +29,61 @@ body {
     margin-left: 415px;
 }
 
-@media only screen and (max-width: 480px) {
-    body {
-        font-size: small;
-    }
-    #happiness img {
-        width: 150px;
-    }
-    .bubu {
-        width: 150px;
-        height: 200px;
-        margin-left: 50px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     body {
         font-size: medium;
     }
     #happiness img {
+        width: 250px;
+    }
+    .bubu {
+        width: 220px;
+        height: 280px;
+        margin-left: 200px;
+    }
+}
+
+/* Media query for mobile devices (480px to 767px) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        font-size: small;
+    }
+    #happiness img {
         width: 200px;
     }
     .bubu {
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 220px;
         margin-left: 100px;
+    }
+}
+
+/* Media query for small mobile devices (320px to 479px) */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    body {
+        font-size: x-small;
+    }
+    #happiness img {
+        width: 150px;
+    }
+    .bubu {
+        width: 140px;
+        height: 160px;
+        margin-left: 50px;
+    }
+}
+
+/* Media query for Android devices (specifically targeting Android screen sizes) */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    body {
+        font-size: medium;
+    }
+    #happiness img {
+        width: 250px;
+    }
+    .bubu {
+        width: 220px;
+        height: 280px;
+        margin-left: 200px;
     }
 }
