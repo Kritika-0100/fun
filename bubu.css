@@ -28,3 +28,31 @@ body {
     z-index: 1;
     margin-left: 415px;
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: small;
+    }
+    #happiness img {
+        width: 150px;
+    }
+    .bubu {
+        width: 150px;
+        height: 200px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: medium;
+    }
+    #happiness img {
+        width: 200px;
+    }
+    .bubu {
+        width: 200px;
+        height: 250px;
+        margin-left: 100px;
+    }
+}
